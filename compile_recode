@@ -1,0 +1,28 @@
+  Could not find a package configuration file provided by "Eigen3" with any
+  of the following names:
+
+    Eigen3Config.cmake
+    eigen3-config.cmake
+
+pkg-config --modversion eigen3
+sudo apt-get install libeigen3-dev
+==================================================================================================
+  Could not find the following Boost libraries:
+
+          boost_regex
+
+https://www.cnblogs.com/lexus/archive/2013/03/19/2969151.html
+
+https://blog.csdn.net/tuwenqi2013/article/details/100168102?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-100168102-blog-98587634.235%5Ev38%5Epc_relevant_anti_vip&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-100168102-blog-98587634.235%5Ev38%5Epc_relevant_anti_vip&utm_relevant_index=2
+
+https://blog.csdn.net/weixin_43325228/article/details/128129515
+cmake .. -DCMAKE_CXX_FLAGS=-DTBB_ALLOCATOR_TRAITS_BROKEN
+make -j2
+
+https://blog.csdn.net/qyt_722/article/details/118416152
+
+
+
+
+https://blog.csdn.net/Leslie___Cheung/article/details/109591426?spm=1001.2014.3001.5502
+https://blog.csdn.net/qyt_722/article/details/118416152
